@@ -1,4 +1,4 @@
-# RabbitMQ Tutorial - "Hello World!" with .NET
+# RabbitMQ Tutorial - "Work queues" with .NET
 
 This tutorial demonstrates how to use RabbitMQ with .NET to build a simple messaging application.
 
