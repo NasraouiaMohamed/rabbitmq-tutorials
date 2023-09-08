@@ -3,13 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.002.0
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Receive", "Receive\Receive.csproj", "{FDE106A8-5BF4-428C-8CBB-95A66CB8A945}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NewTask", "NewTask\NewTask.csproj", "{3D86996A-1D07-4DE7-BCDE-2E1A05171AF8}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Send", "Send\Send.csproj", "{E715EAA8-A829-4436-866C-552F7E533614}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NewTask", "NewTask\NewTask.csproj", "{3D86996A-1D07-4DE7-BCDE-2E1A05171AF8}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Worker", "Worker\Worker.csproj", "{6C72BAD8-DDA8-4BEB-BC1F-88A75744F195}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Worker", "Worker\Worker.csproj", "{6C72BAD8-DDA8-4BEB-BC1F-88A75744F195}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,14 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{FDE106A8-5BF4-428C-8CBB-95A66CB8A945}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{FDE106A8-5BF4-428C-8CBB-95A66CB8A945}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{FDE106A8-5BF4-428C-8CBB-95A66CB8A945}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{FDE106A8-5BF4-428C-8CBB-95A66CB8A945}.Release|Any CPU.Build.0 = Release|Any CPU
-		{E715EAA8-A829-4436-866C-552F7E533614}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{E715EAA8-A829-4436-866C-552F7E533614}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{E715EAA8-A829-4436-866C-552F7E533614}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{E715EAA8-A829-4436-866C-552F7E533614}.Release|Any CPU.Build.0 = Release|Any CPU
 		{3D86996A-1D07-4DE7-BCDE-2E1A05171AF8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{3D86996A-1D07-4DE7-BCDE-2E1A05171AF8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3D86996A-1D07-4DE7-BCDE-2E1A05171AF8}.Release|Any CPU.ActiveCfg = Release|Any CPU

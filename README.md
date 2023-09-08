@@ -3,12 +3,4 @@
 This tutorial demonstrates how to use RabbitMQ with .NET to build a simple messaging application.
 
 ## Introduction
-In this tutorial, we'll start with the simplest possible example: sending a "Hello World!" message from a .NET producer to a RabbitMQ queue and having a .NET consumer receive and process it. This straightforward scenario will serve as our introduction to RabbitMQ and its .NET client library.
-
-### Key Terminology
-
-- **Producer**: A producer is a program responsible for sending messages to RabbitMQ. It produces messages and sends them to a RabbitMQ queue.
-
-- **Queue**: In RabbitMQ, a queue is like a postbox where messages are stored before being consumed. Messages are placed into a queue and wait to be delivered to consumers.
-
-- **Consumer**: A consumer is a program that receives and processes messages from a RabbitMQ queue. It waits for messages to arrive and performs specific actions based on the received data.
+In this tutorial, we will build upon the "Hello World!" example by creating a Work Queue. Work Queues are used to distribute time-consuming tasks among multiple workers efficiently. The main idea behind Work Queues is to avoid performing resource-intensive tasks immediately and instead schedule them for later execution. We encapsulate tasks as messages and send them to a queue, where worker processes running in the background will pop the tasks and process them. This approach is particularly valuable in scenarios like web applications where complex tasks cannot be handled within the short window of an HTTP request.
